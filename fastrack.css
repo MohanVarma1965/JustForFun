@@ -1,0 +1,352 @@
+body {
+    background: #D0D0D0;
+    font-family: 'Gotham Narrow', Arial, sans-serif;
+/ / font-size: 12 px;
+}
+
+.header-container {
+    border: 1px solid grey;
+    background: white;
+}
+
+.logo-search-container {
+    display: flex;
+    padding: 10px 12px 5px 5px;
+    justify-content: space-between;
+}
+
+.logo-image {
+    width: 335px;
+    height: 75px;
+    padding: 2px 5px;
+}
+.logo-image-small{
+    display:none;
+}
+
+.search-label {
+    color: #7ab398;
+    font-weight: bold;
+}
+
+.search-button {
+    cursor: pointer;
+    width: 85px;
+}
+
+.searchType-container {
+    margin-left: 101px;
+    margin-top: 15px;
+}
+
+.dropDown-holder {
+    width: 180px;
+    padding: 5px;
+    float: right;
+}
+
+.header-tabs {
+    background: #7ab398;
+    display: flex;
+    padding: 5px 0px;
+    flex-wrap: wrap;
+}
+
+.tab {
+    padding: 0 10px;
+    border-right: 2px solid;
+    font-weight: bold;
+/ / font-size: 12 px;
+}
+
+.tab:hover {
+    cursor: pointer;
+    padding-right: 20px;
+    color: white;
+}
+
+.tab:last-child {
+    border-right: none;
+}
+
+/* content changes start*/
+
+.content-container {
+    display: flex;
+    margin: 10px 0px;
+    font-size: 13px;
+}
+
+.left-frame {
+    flex: 1.5;
+    background: #7ab398;
+    border: 1px solid grey;
+    height: 270px;
+}
+
+.left-frame .logo-image {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    position: relative;
+    top: 6px;
+}
+
+.logo-image.accountExecutive-logo {
+    top: 5px;
+}
+
+.active {
+    cursor: pointer;
+    background: white;
+    padding: 6px 0 10px;
+}
+
+.right-arrow {
+    float:right;
+    width: 20px;
+    height: 20px;
+    top: 2px;
+    position: relative;
+    top: 4px;
+
+}
+
+.right-arrow-operations {
+    width: 20px;
+    height: 20px;
+    top: 2px;
+    position: relative;
+    top: 4px;
+    right: -75px;
+}
+
+.left-frame .logo-image.IT-logo {
+    top: 6px;
+    position: relative;
+}
+
+.left-tab {
+    margin: 10px 0px;
+}
+
+.left-tab-label {
+    display: inline-block;
+    padding-left: 35px;
+}
+
+.entities {
+    font-size: 21px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid gainsboro;
+    padding: 10px;
+}
+
+.right-frame {
+    flex: 6;
+    border: 1px solid grey;
+    margin-left: 10px;
+    background: white;
+    padding: 10px;
+}
+
+.content-tabs-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-tab {
+    padding: 0px 5px;
+    background: #D0D0D0;
+    border: 1px solid grey;
+    margin-right: 5px;
+}
+
+.contactInfo-content {
+    border: 1px solid grey;
+    height: 287px;
+    padding: 12px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0px;
+}
+
+.create-exit-buttons {
+    width: 200px;
+    margin-left: 50px;
+    padding: 5px 0;
+}
+
+/* content changes END*/
+
+/*Overriding table css */
+table {
+    font-weight: bold;
+}
+
+label {
+    color: grey;
+    font-weight: lighter;
+}
+
+/* Overriding table css*/
+
+/*default button css*/
+
+.myButton {
+    box-shadow: 0px 10px 14px -7px #276873;
+    background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99', GradientType=0);
+    background-color: #599bb3;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 32px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #3d768a;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3', GradientType=0);
+    background-color: #408c99;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.myButton1 {
+    box-shadow: inset 0px 1px 3px 0px #91b8b3;
+    background: linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#768d87', endColorstr='#6c7c7c', GradientType=0);
+    background-color: #768d87;
+    border-radius: 5px;
+    border: 1px solid #566963;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 40px;
+    text-decoration: none;
+    text-shadow: 0px -1px 0px #2b665e;
+}
+
+.myButton1:hover {
+    background: linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6c7c7c', endColorstr='#768d87', GradientType=0);
+    background-color: #6c7c7c;
+}
+
+.myButton1:active {
+    position: relative;
+    top: 1px;
+}
+
+/*END*/
+
+
+
+
+
+/*Alert*/
+
+#dialogoverlay{
+    display: none;
+    opacity: .8;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: #FFF;
+    width: 100%;
+    z-index: 10;
+}
+#dialogbox{
+    display: none;
+    position: fixed;
+    background: #000;
+    border-radius:7px;
+    width:550px;
+    z-index: 10;
+}
+#dialogbox > div{ background:grey; margin:8px; }
+#dialogbox > div > #dialogboxhead{ background: #7ab398; font-size:19px; padding:10px; color:white; }
+#dialogbox > div > #dialogboxbody{ background:white; padding:20px; color:black; }
+#dialogbox > div > #dialogboxfoot{ background: #7ab398; padding:10px; text-align:right; }
+
+
+/** ALERT ENDS**/
+
+/*resposnive*/
+
+.medium{
+    display:none;
+}
+.large{
+    display:block;
+}
+
+.large-search{
+    display: initial;
+}
+.logo-image-small{
+    display: none;
+    
+}
+
+@media only screen and (max-width: 1050px){
+
+.medium{
+    display:block;
+    height:inherit;
+}
+    .large{
+        display:none;
+    }
+
+    .large-search{
+        display: none;
+    }
+    .left-frame{
+        height:initial;
+    }
+}
+@media only screen and (max-width: 700px){
+    .logo-image{
+     width:213PX;
+        height:initial;
+    }
+    .content-container{
+        flex-direction: column;
+    }
+    .right-frame{
+        margin:0;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+    .logo-image-small{
+        display: block;
+        width: 60px;
+    }
+    .logo-image{
+        display: none;
+    }
+    .left-frame .logo-image{
+        display: inline-block;
+    }
+}
+/*responsive*/

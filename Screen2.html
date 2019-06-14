@@ -1,0 +1,273 @@
+<html>
+<head>
+    <link rel="stylesheet" href="fastrack.css">
+</head>
+<body>
+<div id="dialogoverlay"></div>
+<div id="dialogbox">
+    <div>
+        <div id="dialogboxhead"></div>
+        <div id="dialogboxbody"></div>
+        <div id="dialogboxfoot"></div>
+    </div>
+</div>
+<div class="header-container">
+    <div class="logo-search-container">
+        <div class="logo-container">
+            <img src="final2.jpg" class="logo-image"/>
+            <img src="final2small.jpg" class="logo-image-small"/>
+        </div>
+        <div class="quickSearch-container">
+            <div class="search">
+                <label for="qucikSearch" class="search-label large-search"> Quick Search: </label>
+                <input id="qucikSearch" type="search" class="search-field">
+                <button type="submit" class="search-button"> GO</button>
+            </div>
+            <div class="searchType-container">
+                <select class="dropDown-holder">
+                    <option value="volvo">Property Identifier</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="header-tabs">
+        <div class="tab"> Alerts</div>
+        <div class="tab"> Properties</div>
+        <div class="tab"> Vendors</div>
+        <div class="tab"> Item search</div>
+        <div class="tab"> Entities</div>
+        <div class="tab"> Settings</div>
+        <div class="tab"> Vendor Tools</div>
+        <div class="tab"> Logout</div>
+    </div>
+</div>
+
+<div class="content-container">
+    <div class="left-frame">
+        <div class="entities"> Entities</div>
+        <div class="left-tab"><img src="client.png" class="logo-image"/>
+            <div class="left-tab-label">Client</div>
+        </div>
+        <div class="left-tab active"><img src="operations.png" class="logo-image"/>
+            <div class="left-tab-label">Operations</div>
+            <img src="rightArrow.png" class="right-arrow large"/>
+        </div>
+        <div class="left-tab"><img src="SalesTeam.png" class="logo-image"/>
+            <div class="left-tab-label">Sales Team</div>
+        </div>
+        <div ><img src="AccountExecutive.png" class="logo-image accountExecutive-logo"/>
+            <div class="left-tab-label">Account Executive</div>
+
+        </div>
+        <div class="left-tab"><img src="IT.png" class="logo-image IT-logo"/>
+            <div class="left-tab-label">IT</div>
+        </div>
+        <div class="left-tab"><img src="Accounting.png" class="logo-image"/>
+            <div class="left-tab-label">Accounting</div>
+        </div>
+
+    </div>
+
+    <div class="right-frame">
+        <div class="newClient-container">
+            <h2> New Client Setup</h2>
+            <form>
+                <label>Company Name :</label><input type="text" Value="Fannie Mae Mgr"></input>
+                <label>Active</label><input type="checkbox" checked></input>
+                <label>Client ID :</label><input type="text" size="6" id="clientId" value="1650"></input>
+            </form>
+        </div>
+        <div class="content-tabs-container">
+            <div class="content-tab" style="font-size:14px"><strong>Contact Info</strong></div>
+            <div class="content-tab">Branding</div>
+            <div class="content-tab">Users</div>
+            <div class="content-tab">Sub-Clients</div>
+            <div class="content-tab">Settings</div>
+            <div class="content-tab">Packages</div>
+            <div class="content-tab">Services</div>
+            <div class="content-tab">Notes</div>
+            <div class="content-tab">Associated users</div>
+            <div class="content-tab">No Bill Period</div>
+        </div>
+        <div class="contactInfo-content large" id="contactInfo-content">
+            <table border="0" Style="font-family:Arial">
+                <tr>
+                    <td>
+                        Last Name:
+                    </td>
+                    <td><label type=text placeholder="Last Name" size="20" >Crockett</label>
+                    </td>
+
+
+                    <td>First Name:</td>
+                    <td><label type=text placeholder="First Name" size="20" > Elonda</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        E-mail Address:
+                    </td>
+                    <td><label type=text  size="20">Elonda_m_Crockett@FannieMae.com</label>
+                    </td>
+                </tr>
+
+                <tr>
+
+                <tr>
+                    <td>
+                        Address Line 1:
+                    </td>
+                <td><label type=text size="20" >International Plazza II</label>
+
+                    <td>
+                        Address Line 2:
+                    </td>
+                <td><label type=text size="20" >14221 Dallas Parkway Street</label>
+                </tr>
+
+                <tr>
+                    <td>
+                        City:
+                    </td>
+                    <td><label type="text" placeholder="City" size="12" >Dallas</label></td>
+
+
+                    <td>
+                        State/Zip:
+                    </td>
+                    <td><label type="text" size="12">Texas</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Phone:</td>
+                    <td><label type=text size="20">000-123-1234</label>
+                        extn: <label type=text size="4">1234</label>
+                    </td>
+
+                    <td>Fax:</td>
+                    <td><label type=text  size="20">1234</label></td>
+                </tr>
+                <tr>
+                    <td>
+                        Cell Phone:
+                    </td>
+                    <td><label type=text size="20">000-000-0000</label>
+
+                    </td>
+                    <td>
+                        Other Phone:
+                    </td>
+                    <td><label type=text size="20">000-000-0000</label>
+
+                </tr>
+
+
+            </table>
+        </div>
+
+
+        <div class="contactInfo-content medium">
+            <table border="0" Style="font-family:Arial">
+                <tr>
+                    <td>
+                        Last Name:
+                    </td>
+                    <td><label type=text placeholder="Last Name" >Crockett</label>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>First Name:</td>
+                    <td><label type=text Value="Elonda"> First Name</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        E-mail Address:
+                    </td>
+                    <td><label type=text >Elonda_m_Crockett@FannieMae.com</label>
+                    </td>
+                </tr>
+
+                <tr>
+
+                <tr>
+                    <td>
+                        Address Line 1:
+                    </td>
+                <td><label type=text> International Plazza II</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Address Line 2:
+                    </td>
+                    <label><label type=text  > 14221 Dallas Parkway Street</label>
+                </tr>
+
+                <tr>
+                    <td>
+                        City:
+                    </td>
+                    <td><label type="text" placeholder="City" >Dallas</label></td>
+                </tr>
+                <tr>
+                    <td>
+                        State/Zip:
+                    </td>
+                    <td><label>Texas</label>                        <label size="8">75254</label>
+                        <label size="8">0000</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Phone:</td>
+                    <td><label type=text > 000-123-1234</label>
+                        extn: <label type=text  size="5">1234</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Fax:</td>
+                    <td><label type=text >1234</label></td>
+                </tr>
+                <tr>
+                    <td>
+                        Cell Phone:
+                    </td>
+                    <td><label type=text > 000-000-0000</label>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Other Phone:
+                    </td>
+                    <td><label type=text >000-000-0000</label>
+
+                </tr>
+
+
+            </table>
+        </div>
+
+
+        <div class="button-container">
+
+            <a href="#" class="myButton" id='createButton' onclick="createMethod('Validation Successful')">Validate</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <a href="#" class="myButton1">Exit</a>
+        </div>
+
+
+    </div>
+</div>
+
+<script src="fastrack.js"></script>
+</body>
+
+
+</html>
+
+
